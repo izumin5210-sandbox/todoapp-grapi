@@ -40,6 +40,8 @@ service TodoService {
 
 message Todo {
   string todo_id = 1;
+  string title = 2;
+  bool done = 3;
 }
 
 message ListTodosRequest {

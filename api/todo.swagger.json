@@ -151,6 +151,13 @@
       "properties": {
         "todo_id": {
           "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "done": {
+          "type": "boolean",
+          "format": "boolean"
         }
       }
     }
